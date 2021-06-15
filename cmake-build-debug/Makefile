@@ -142,59 +142,86 @@ OpenGLViewer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/build
 .PHONY : OpenGLViewer/fast
 
-Triangle.o: Triangle.cpp.o
+src/Point.o: src/Point.cpp.o
 
-.PHONY : Triangle.o
-
-# target to build an object file
-Triangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o
-.PHONY : Triangle.cpp.o
-
-Triangle.i: Triangle.cpp.i
-
-.PHONY : Triangle.i
-
-# target to preprocess a source file
-Triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/Triangle.cpp.i
-.PHONY : Triangle.cpp.i
-
-Triangle.s: Triangle.cpp.s
-
-.PHONY : Triangle.s
-
-# target to generate assembly for a file
-Triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/Triangle.cpp.s
-.PHONY : Triangle.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : src/Point.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Point.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/src/Point.cpp.o
+.PHONY : src/Point.cpp.o
 
-main.i: main.cpp.i
+src/Point.i: src/Point.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Point.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/src/Point.cpp.i
+.PHONY : src/Point.cpp.i
 
-main.s: main.cpp.s
+src/Point.s: src/Point.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Point.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/src/Point.cpp.s
+.PHONY : src/Point.cpp.s
+
+src/Shape.o: src/Shape.cpp.o
+
+.PHONY : src/Shape.o
+
+# target to build an object file
+src/Shape.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.o
+.PHONY : src/Shape.cpp.o
+
+src/Shape.i: src/Shape.cpp.i
+
+.PHONY : src/Shape.i
+
+# target to preprocess a source file
+src/Shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.i
+.PHONY : src/Shape.cpp.i
+
+src/Shape.s: src/Shape.cpp.s
+
+.PHONY : src/Shape.s
+
+# target to generate assembly for a file
+src/Shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.s
+.PHONY : src/Shape.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLViewer.dir/build.make CMakeFiles/OpenGLViewer.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -205,12 +232,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OpenGLViewer"
-	@echo "... Triangle.o"
-	@echo "... Triangle.i"
-	@echo "... Triangle.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Point.o"
+	@echo "... src/Point.i"
+	@echo "... src/Point.s"
+	@echo "... src/Shape.o"
+	@echo "... src/Shape.i"
+	@echo "... src/Shape.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -82,22 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/Figure.h">
+		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/src/Point.cpp">
 			<Option target="OpenGLViewer"/>
 		</Unit>
-		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/Triangle.cpp">
+		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/src/Point.hpp">
 			<Option target="OpenGLViewer"/>
 		</Unit>
-		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/Triangle.h">
+		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/src/Shape.cpp">
 			<Option target="OpenGLViewer"/>
 		</Unit>
-		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/Vector.h">
+		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/src/Shape.hpp">
 			<Option target="OpenGLViewer"/>
 		</Unit>
-		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/VectorImp.hpp">
-			<Option target="OpenGLViewer"/>
-		</Unit>
-		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/main.cpp">
+		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/src/main.cpp">
 			<Option target="OpenGLViewer"/>
 		</Unit>
 		<Unit filename="/home/yorlend/CLionProjects/OpenGLViewer/CMakeLists.txt">

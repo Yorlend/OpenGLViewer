@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/OpenGLViewer.dir/main.cpp.o CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o -o OpenGLViewer  -lglut -lGLU -lGL 
+/usr/bin/c++ -g CMakeFiles/OpenGLViewer.dir/src/main.cpp.o CMakeFiles/OpenGLViewer.dir/src/Point.cpp.o CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.o -o OpenGLViewer  -lglut -lGLU -lGL 

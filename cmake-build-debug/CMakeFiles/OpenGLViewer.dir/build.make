@@ -76,45 +76,60 @@ include CMakeFiles/OpenGLViewer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGLViewer.dir/flags.make
 
-CMakeFiles/OpenGLViewer.dir/main.cpp.o: CMakeFiles/OpenGLViewer.dir/flags.make
-CMakeFiles/OpenGLViewer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLViewer.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLViewer.dir/main.cpp.o -c /home/yorlend/CLionProjects/OpenGLViewer/main.cpp
+CMakeFiles/OpenGLViewer.dir/src/main.cpp.o: CMakeFiles/OpenGLViewer.dir/flags.make
+CMakeFiles/OpenGLViewer.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLViewer.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLViewer.dir/src/main.cpp.o -c /home/yorlend/CLionProjects/OpenGLViewer/src/main.cpp
 
-CMakeFiles/OpenGLViewer.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLViewer.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yorlend/CLionProjects/OpenGLViewer/main.cpp > CMakeFiles/OpenGLViewer.dir/main.cpp.i
+CMakeFiles/OpenGLViewer.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLViewer.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yorlend/CLionProjects/OpenGLViewer/src/main.cpp > CMakeFiles/OpenGLViewer.dir/src/main.cpp.i
 
-CMakeFiles/OpenGLViewer.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLViewer.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yorlend/CLionProjects/OpenGLViewer/main.cpp -o CMakeFiles/OpenGLViewer.dir/main.cpp.s
+CMakeFiles/OpenGLViewer.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLViewer.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yorlend/CLionProjects/OpenGLViewer/src/main.cpp -o CMakeFiles/OpenGLViewer.dir/src/main.cpp.s
 
-CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o: CMakeFiles/OpenGLViewer.dir/flags.make
-CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o: ../Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o -c /home/yorlend/CLionProjects/OpenGLViewer/Triangle.cpp
+CMakeFiles/OpenGLViewer.dir/src/Point.cpp.o: CMakeFiles/OpenGLViewer.dir/flags.make
+CMakeFiles/OpenGLViewer.dir/src/Point.cpp.o: ../src/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGLViewer.dir/src/Point.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLViewer.dir/src/Point.cpp.o -c /home/yorlend/CLionProjects/OpenGLViewer/src/Point.cpp
 
-CMakeFiles/OpenGLViewer.dir/Triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLViewer.dir/Triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yorlend/CLionProjects/OpenGLViewer/Triangle.cpp > CMakeFiles/OpenGLViewer.dir/Triangle.cpp.i
+CMakeFiles/OpenGLViewer.dir/src/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLViewer.dir/src/Point.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yorlend/CLionProjects/OpenGLViewer/src/Point.cpp > CMakeFiles/OpenGLViewer.dir/src/Point.cpp.i
 
-CMakeFiles/OpenGLViewer.dir/Triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLViewer.dir/Triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yorlend/CLionProjects/OpenGLViewer/Triangle.cpp -o CMakeFiles/OpenGLViewer.dir/Triangle.cpp.s
+CMakeFiles/OpenGLViewer.dir/src/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLViewer.dir/src/Point.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yorlend/CLionProjects/OpenGLViewer/src/Point.cpp -o CMakeFiles/OpenGLViewer.dir/src/Point.cpp.s
+
+CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.o: CMakeFiles/OpenGLViewer.dir/flags.make
+CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.o: ../src/Shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.o -c /home/yorlend/CLionProjects/OpenGLViewer/src/Shape.cpp
+
+CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yorlend/CLionProjects/OpenGLViewer/src/Shape.cpp > CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.i
+
+CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yorlend/CLionProjects/OpenGLViewer/src/Shape.cpp -o CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.s
 
 # Object files for target OpenGLViewer
 OpenGLViewer_OBJECTS = \
-"CMakeFiles/OpenGLViewer.dir/main.cpp.o" \
-"CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o"
+"CMakeFiles/OpenGLViewer.dir/src/main.cpp.o" \
+"CMakeFiles/OpenGLViewer.dir/src/Point.cpp.o" \
+"CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.o"
 
 # External object files for target OpenGLViewer
 OpenGLViewer_EXTERNAL_OBJECTS =
 
-OpenGLViewer: CMakeFiles/OpenGLViewer.dir/main.cpp.o
-OpenGLViewer: CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o
+OpenGLViewer: CMakeFiles/OpenGLViewer.dir/src/main.cpp.o
+OpenGLViewer: CMakeFiles/OpenGLViewer.dir/src/Point.cpp.o
+OpenGLViewer: CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.o
 OpenGLViewer: CMakeFiles/OpenGLViewer.dir/build.make
 OpenGLViewer: CMakeFiles/OpenGLViewer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenGLViewer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OpenGLViewer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGLViewer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

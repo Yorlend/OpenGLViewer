@@ -3,5 +3,5 @@ project(OpenGLViewer)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(OpenGLViewer main.cpp Figure.h Vector.h Triangle.cpp Triangle.h VectorImp.hpp)
+add_executable(OpenGLViewer src/main.cpp src/Point.cpp src/Point.hpp src/Shape.cpp src/Shape.hpp)
 target_link_libraries(OpenGLViewer glut GLU GL)

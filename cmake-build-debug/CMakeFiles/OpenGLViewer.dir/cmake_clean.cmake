@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o"
-  "CMakeFiles/OpenGLViewer.dir/main.cpp.o"
+  "CMakeFiles/OpenGLViewer.dir/src/Point.cpp.o"
+  "CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.o"
+  "CMakeFiles/OpenGLViewer.dir/src/main.cpp.o"
   "OpenGLViewer"
   "OpenGLViewer.pdb"
 )

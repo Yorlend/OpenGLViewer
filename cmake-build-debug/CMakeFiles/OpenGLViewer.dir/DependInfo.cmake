@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yorlend/CLionProjects/OpenGLViewer/Triangle.cpp" "/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o"
-  "/home/yorlend/CLionProjects/OpenGLViewer/main.cpp" "/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles/OpenGLViewer.dir/main.cpp.o"
+  "/home/yorlend/CLionProjects/OpenGLViewer/src/Point.cpp" "/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles/OpenGLViewer.dir/src/Point.cpp.o"
+  "/home/yorlend/CLionProjects/OpenGLViewer/src/Shape.cpp" "/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles/OpenGLViewer.dir/src/Shape.cpp.o"
+  "/home/yorlend/CLionProjects/OpenGLViewer/src/main.cpp" "/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles/OpenGLViewer.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

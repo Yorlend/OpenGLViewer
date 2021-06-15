@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/yorlend/CLionProjects/OpenGLViewer/Triangle.cpp
+Triangle.h
+/home/yorlend/CLionProjects/OpenGLViewer/Triangle.h
+
+/home/yorlend/CLionProjects/OpenGLViewer/Triangle.h
+
 /home/yorlend/CLionProjects/OpenGLViewer/main.cpp
 GL/glut.h
 -
