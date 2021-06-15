@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/OpenGLViewer.dir/main.cpp.o CMakeFiles/OpenGLViewer.dir/Triangle.cpp.o -o OpenGLViewer  -lglut -lGLU -lGL 

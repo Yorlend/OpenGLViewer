@@ -1,0 +1,3 @@
+/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yorlend/CLionProjects/OpenGLViewer/cmake-build-debug/CMakeFiles/OpenGLViewer.dir
