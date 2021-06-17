@@ -5,9 +5,15 @@
 #ifndef OPENGLVIEWER_SCENELOADER_HPP
 #define OPENGLVIEWER_SCENELOADER_HPP
 
+#include "Scene.hpp"
+#include "../../lib/json.hpp"
+#include <string>
 
-class SceneLoader {
-
+class SceneLoader
+{
+public:
+    Scene load(const std::string &filename);
+    Shape* loadShape(const nlohmann::json &j);
 };
 
 
